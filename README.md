@@ -5,7 +5,7 @@ This is my submission for the Hack Club Hackpad event! The CraftPad is a custom 
 ## Screenshots
 
 ### Overall Hackpad
-![Description](<Case Exploded View.png>)
+![Description](<Case.png>)
 
 ### Schematic
 ![Description](Schematic.png)
