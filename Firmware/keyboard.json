@@ -2,7 +2,13 @@
     "manufacturer": "Ruslan Ushurov",
     "keyboard_name": "craftpad",
     "maintainer": "rushurov074",
+    "processor": "RP2040",
     "bootloader": "rp2040",
+    "usb": {
+        "vid": "0xFEED",
+        "pid": "0x0001",
+        "device_version": "0.0.1"
+    },
     "features": {
         "bootmagic": true,
         "extrakey": true,
@@ -10,22 +16,22 @@
         "nkro": true
     },
     "matrix_pins": {
-        "direct": [
-            ["GP26", "GP27", "GP28"]
-        ]
+        "cols": ["GP5", "GP6", "GP7"],
+        "rows": ["GP2", "GP3", "GP4"]
     },
-    "processor": "RP2040",
-    "usb": {
-        "device_version": "1.0.0",
-        "pid": "0x0000",
-        "vid": "0xFEED"
-    },
+    "diode_direction": "COL2ROW",
     "layouts": {
         "LAYOUT": {
             "layout": [
-                {"matrix": [0, 0], "x": 0, "y": 0},
-                {"matrix": [0, 1], "x": 1, "y": 0},
-                {"matrix": [0, 2], "x": 2, "y": 0}
+                {"label": "K00", "matrix": [0, 0], "x": 0, "y": 0},
+                {"label": "K01", "matrix": [0, 1], "x": 1, "y": 0},
+                {"label": "K02", "matrix": [0, 2], "x": 2, "y": 0},
+                {"label": "K10", "matrix": [1, 0], "x": 0, "y": 1},
+                {"label": "K11", "matrix": [1, 1], "x": 1, "y": 1},
+                {"label": "K12", "matrix": [1, 2], "x": 2, "y": 1},
+                {"label": "K20", "matrix": [2, 0], "x": 0, "y": 2},
+                {"label": "K21", "matrix": [2, 1], "x": 1, "y": 2},
+                {"label": "K22", "matrix": [2, 2], "x": 2, "y": 2}
             ]
         }
     }
