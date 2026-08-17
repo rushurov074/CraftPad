@@ -1,7 +1,5 @@
 # craftpad
 
-![Description](CraftPad/<UpdatedCase.png>)
-
 *A short description of the keyboard/project*
 
 * Keyboard Maintainer: [Ruslan Ushurov](https://github.com/rushurov074)
