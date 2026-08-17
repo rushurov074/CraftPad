@@ -1,6 +1,6 @@
 # craftpad
 
-![craftpad](UpdatedCase.png)
+![craftpad](<UpdatedCase.png>)
 
 *A short description of the keyboard/project*
 
