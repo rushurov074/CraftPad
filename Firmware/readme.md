@@ -1,6 +1,6 @@
 # craftpad
 
-![craftpad](imgur.com image replace me!)
+![craftpad](UpdatedCase.png)
 
 *A short description of the keyboard/project*
 
